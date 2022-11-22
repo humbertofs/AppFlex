@@ -3,17 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono&display=swap" rel="stylesheet">
     <title>Calculadora Flex</title>
 </head>
 <body>
     <h1>JS - Aula 5: Calculadora Flex</h1>
     <img src="neutro.png" alt="Contador de vantagem em posição neutro." id="status">
-    <form name="frmFlex">
-        <input type="text" placeholder="Etanol" size="8" name="txtEtanol">
-        <input type="text" placeholder="Gasolina" size="8" name="txtGasolina">
-        <input type="button" value="Vantagem" onclick="calcular()">
-        <input type="reset" value="Limpar" onclick="resetar()">
-    </form>
+        <form class="form" name="frmFlex">
+            <label class="labelPlace">R$
+                <input class="inputValue" type="text" placeholder="Etanol" name="txtEtanol">
+            </label>
+            <label class="labelPlace">R$
+                <input class="inputValue" type="text" placeholder="Gasolina" name="txtGasolina">
+            </label>
+            <input class="inputButton" type="button" value="Vantagem" onclick="calcular()">
+            <input class="inputButton" type="reset" value="Limpar" onclick="resetar()">
+        </form>
 <script src="calcflex.js"></script>
 </body>
+<!-- <footer>
+    <article>Desenvolvido por: Humberto de França Santos a partir do projeto original do professor José de Assis.</article>
+</footer> -->
 </html>
