@@ -10,21 +10,24 @@
     <title>Calculadora Flex</title>
 </head>
 <body>
-    <h1>JS - Aula 5: Calculadora Flex</h1>
-    <img src="neutro.png" alt="Contador de vantagem em posição neutro." id="status">
-        <form class="form" name="frmFlex">
-            <label class="labelPlace">R$
-                <input class="inputValue" type="text" placeholder="Etanol" name="txtEtanol">
-            </label>
-            <label class="labelPlace">R$
-                <input class="inputValue" type="text" placeholder="Gasolina" name="txtGasolina">
-            </label>
-            <input class="inputButton" type="button" value="Vantagem" onclick="calcular()">
-            <input class="inputButton" type="reset" value="Limpar" onclick="resetar()">
-        </form>
+    <div class="app">
+        <h2>JS - Aula 5:</h1>
+        <h1>Calculadora Flex</h1>
+        <img src="neutro.png" alt="Contador de vantagem em posição neutro." id="status">
+            <form class="form" name="frmFlex">
+                <label class="labelPlace">R$
+                    <input class="inputValue" type="text" placeholder="Etanol" name="txtEtanol">
+                </label>
+                <label class="labelPlace">R$
+                    <input class="inputValue" type="text" placeholder="Gasolina" name="txtGasolina">
+                </label>
+                <input class="inputButton" type="button" value="Vantagem" onclick="calcular()">
+                <input class="inputButton" type="reset" value="Limpar" onclick="resetar()">
+            </form>
+    </div>
 <script src="calcflex.js"></script>
 </body>
-<!-- <footer>
+<footer>
     <article>Desenvolvido por: Humberto de França Santos a partir do projeto original do professor José de Assis.</article>
-</footer> -->
+</footer>
 </html>
